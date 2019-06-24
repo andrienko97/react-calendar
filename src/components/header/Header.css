@@ -1,0 +1,33 @@
+.calendar-header {
+    position: relative;
+    height: 10%;
+    background: #cacaca
+  }
+
+  .calendar-header-month {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .calendar-header-buttons {
+    width: 100%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .calendar-header-prev {
+    float: left;
+  }
+  
+  .calendar-header-actual {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  
+  .calendar-header-next {
+    float: right;
+  }
